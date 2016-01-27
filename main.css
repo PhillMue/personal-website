@@ -22,6 +22,42 @@ ul#menu li a:hover {
     margin-left:60%;
     margin-top: -50px;
 }
+header{
+    background-color: black;
+}
 h1{
     font-weight: bolder;
 }
+
+.about h1{
+    text-align: center;
+    font-family: serif;
+
+    
+}
+.about{
+    background-image: url(coffeebar.jpg);
+    background-size: cover;
+    padding-top: 500px;
+    color: white;
+}
+.edu p,h3{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
