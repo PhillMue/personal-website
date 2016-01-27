@@ -22,6 +22,11 @@ ul#menu li a:hover {
     margin-left:60%;
     margin-top: -50px;
 }
+.home{
+    background-image: url(coffeebar.jpg);
+    height: 800px;
+    background-size: cover;
+}
 header{
     background-color: black;
 }
@@ -36,18 +41,31 @@ h1{
     
 }
 .about{
-    background-image: url(coffeebar.jpg);
-    background-size: cover;
-    padding-top: 500px;
+    padding-top: 60px;
     color: white;
+    padding: 20%;
+}
+.edu{
+    background-color: #a9a9a9;
 }
 .edu p,h3{
     color: white;
 }
+.work{
+    background-color: #a9a9a9;
+}
+.work p,h3{
+    color: #fff;
+}
 
-
-
-
+.red{
+    color: red;
+}
+.why{
+    background-image: url(lounge.jpg);
+    height: 800px;
+    background-size: cover;
+}
 
 
 
