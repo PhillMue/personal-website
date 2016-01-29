@@ -57,35 +57,30 @@
 
         
     </section>
-    <div class="contact-box fadeInDownBig">
-  <div class="contact-box-header group">
-    <a href="#" class="close">&times;</a>
-    <!--<div class="contact-photo"></div>-->
-    <h2>Contact</h2>
-    <h3>Tell me what <em>you</em> think...</h3>
-   </div>
-  <form id="contact-form">
-    <div class="row group">
-      <div class="col2">
-        <label class="form-icon name-icon"></label>
-        <input type="text" placeholder="Name" name="name" id="name" required>
-      </div>
-      <div class="col2">
-        <label class="form-icon email-icon"></label>
-        <input type="email" placeholder="Email" name="email" id="email" required>
-      </div>
+   
+  <!-- CONTACT     -->
+      <section class="contacts">
+     <form action="http://formspree.io/muenzuve@gmail.com" method="POST">
+  <div class="row expanded">
+    <div class="large-6 column">
+      <label>
+        <input name="NAME" style="background-color: transparent" type="text" placeholder="name">
+      </label>
     </div>
-    <div class="row group">
-      <div class="col1 last">
-        <label class="form-icon edit-icon"></label>
-        <textarea placeholder="Message" required name="message" id="message"></textarea>
-      </div>
+    <div class="large-6 column">
+      <label>
+        <input name="Email address" style="background-color: transparent" type="text" placeholder="email">
+      </label>
     </div>
-    <div class="contact-box-footer group">
-      <input type="submit" value="Send">
-    </div>
-  </form>
-</div>
+  </div>
+          <label>
+  
+  <textarea name="Message" style="background-color: transparent" placeholder="Your message here"></textarea>
+</label>
+       <button class="button" width="150px" type="submit" value="Submit">Submit</button>
+</form>  
+          
+      </section>
 
 <footer>
 
